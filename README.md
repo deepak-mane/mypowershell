@@ -2,6 +2,7 @@
 My Learnings about Powershell
 
 - [sample-scripts-for-administration](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7)
+- ()[https://sid-500.com/]
 
 1. Get Active Driectory Groups attached to useraccount
 ```ps1
