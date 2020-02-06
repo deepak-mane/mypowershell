@@ -1,7 +1,7 @@
 # mypowershell
 My Learnings about Powershell
 
--[sample-scripts-for-administration](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7)
+- [sample-scripts-for-administration](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7)
 
 1. Get Active Driectory Groups attached to useraccount
 ```ps1
