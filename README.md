@@ -15,4 +15,11 @@ Get-ADGroupMember -Identity "JWTCVPSNMID01_Admins" |Where-Object { $_.objectClas
 Get-ADUser -Properties * | Select SamAccountName,GivenName,Surname
 ```
 
-
+- Script to Read from file list of Groups and display members in each:
+```ps1
+Get-Content "C:\temp\AD_Groups.txt" | ForEach-Object {
+ Write-Host "Members of AD Group ::  $_"
+ Get-ADGroupMember -Identity $_ |Where-Object { $_.objectClass -eq 'user' } |Get-ADUser -Properties * | Select SamAccountName,GivenName,Surname
+ Write-Host ""
+ }
+```
